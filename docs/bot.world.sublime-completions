@@ -1,0 +1,28 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "bot.world",
+            "contents": "bot.world",
+            "kind": "variable",
+        },
+        {
+            "trigger": "bot.world.loadedEntityList",
+            "contents": "bot.world.loadedEntityList",
+            "kind": "variable",
+            "details": "Список <code>java.util.List</code> существ в мире бота"
+        },
+        {
+            "trigger": "bot.world.getWorldTime()",
+            "contents": "bot.world.getWorldTime()",
+            "kind": "variable",
+            "details": "Вернет время в мире бота"
+        },
+        {
+            "trigger": "bot.world.getBlockState(ScriptAPI.getBlockPos(0, 0, 0)).getBlock().getTranslationKey()",
+            "contents": "bot.world.getBlockState(ScriptAPI.getBlockPos(0, 0, 0)).getBlock().getTranslationKey()",
+            "kind": "variable",
+            "details": "Вернет название блока в мире бота Пример tile.stone"
+        }
+    ]
+}

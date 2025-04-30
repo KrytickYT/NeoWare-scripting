@@ -1,0 +1,124 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "bot.player",
+            "contents": "bot.player",
+            "kind": "variable",
+        },
+        {
+            "trigger": "bot.player.posX",
+            "contents": "bot.player.posX",
+            "kind": "variable",
+            "details": "Позиция <code>X</code> бота в мире"
+        },
+        {
+            "trigger": "bot.player.posY",
+            "contents": "bot.player.posY",
+            "kind": "variable",
+            "details": "Позиция <code>Y</code> бота в мире"
+        },
+        {
+            "trigger": "bot.player.posZ",
+            "contents": "bot.player.posZ",
+            "kind": "variable",
+            "details": "Позиция <code>Z</code> бота в мире"
+        },
+        {
+            "trigger": "bot.player.sendChatMessage(\"\");",
+            "contents": "bot.player.sendChatMessage(\"\");",
+            "kind": "function",
+            "details": "Отправить сообщение в чат"
+        },
+        {
+            "trigger": "bot.player.jump();",
+            "contents": "bot.player.jump();",
+            "kind": "function",
+            "details": "Бот подпрыгнет"
+        },
+        {
+            "trigger": "bot.player.motionX",
+            "contents": "bot.player.motionX",
+            "kind": "variable",
+            "details": "Модуль скорости по <code>X</code>"
+        },
+        {
+            "trigger": "bot.player.motionY",
+            "contents": "bot.player.motionY",
+            "kind": "variable",
+            "details": "Модуль скорости по <code>Y</code>"
+        },
+        {
+            "trigger": "bot.player.motionZ",
+            "contents": "bot.player.motionZ",
+            "kind": "variable",
+            "details": "Модуль скорости по <code>Z</code>"
+        },
+        {
+            "trigger": "bot.player.rotationYaw",
+            "contents": "bot.player.rotationYaw",
+            "kind": "variable",
+            "details": "Поворот головы бота по <code>горизонтали</code>"
+        },
+        {
+            "trigger": "bot.player.rotationPitch",
+            "contents": "bot.player.rotationPitch",
+            "kind": "variable",
+            "details": "Поворот головы бота по <code>вертикали</code>"
+        },
+        {
+            "trigger": "bot.player.getHealth()",
+            "contents": "bot.player.getHealth()",
+            "kind": "variable",
+            "details": "Получение здоровья бота"
+        },
+        {
+            "trigger": "bot.player.onGround",
+            "contents": "bot.player.onGround",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если бот стоит на блоке"
+        },
+        {
+            "trigger": "bot.player.isGlowing()",
+            "contents": "bot.player.isGlowing()",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если бот светится"
+        },
+        {
+            "trigger": "bot.player.isInvisible()",
+            "contents": "bot.player.isInvisible()",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если бот в невидемости"
+        },
+        {
+            "trigger": "bot.player.isDead",
+            "contents": "bot.player.isDead",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если бот убита"
+        },
+        {
+            "trigger": "bot.player.isInWater()",
+            "contents": "bot.player.isInWater()",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если бот в воде"
+        },
+        {
+            "trigger": "bot.player.isSneaking()",
+            "contents": "bot.player.isSneaking()",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если бот крадется"
+        },
+        {
+            "trigger": "bot.player.openContainer",
+            "contents": "bot.player.openContainer",
+            "kind": "variable",
+            "details": "Инвентарь бота"
+        },
+        {
+            "trigger": "bot.player.openContainer.getInventory()",
+            "contents": "for(var slot = 0; slot < bot.player.openContainer.getInventory().size(); slot++) {\n    var item = bot.player.openContainer.getInventory().get(slot);\n}",
+            "kind": "variable",
+            "details": "Содержимое инвентаря бота"
+        }
+    ]
+}

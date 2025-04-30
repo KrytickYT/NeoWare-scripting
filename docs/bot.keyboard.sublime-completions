@@ -1,0 +1,64 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "bot.keyboard",
+            "contents": "bot.keyboard",
+            "kind": "variable",
+        },
+        {
+            "trigger": "bot.keyboard.keyBindForward",
+            "contents": "bot.keyboard.keyBindForward = true;",
+            "kind": "variable",
+            "details": "Движение бота вперед"
+        },
+        {
+            "trigger": "bot.keyboard.keyBindBack",
+            "contents": "bot.keyboard.keyBindBack = true;",
+            "kind": "variable",
+            "details": "Движение бота назад"
+        },
+        {
+            "trigger": "bot.keyboard.keyBindLeft",
+            "contents": "bot.keyboard.keyBindLeft = true;",
+            "kind": "variable",
+            "details": "Движение бота налево"
+        },
+        {
+            "trigger": "bot.keyboard.keyBindRight",
+            "contents": "bot.keyboard.keyBindRight = true;",
+            "kind": "variable",
+            "details": "Движение бота направо"
+        },
+        {
+            "trigger": "bot.keyboard.keyBindJump",
+            "contents": "bot.keyboard.keyBindJump = true;",
+            "kind": "variable",
+            "details": "Пробел бота"
+        },
+        {
+            "trigger": "bot.keyboard.keyBindSneak",
+            "contents": "bot.keyboard.keyBindSneak = true;",
+            "kind": "variable",
+            "details": "Шифт бота"
+        },
+        {
+            "trigger": "bot.keyboard.keyBindSprint",
+            "contents": "bot.keyboard.keyBindSprint = true;",
+            "kind": "variable",
+            "details": "Спринт бота"
+        },
+        {
+            "trigger": "bot.keyboard.keyBindAttack",
+            "contents": "bot.keyboard.keyBindAttack = true;",
+            "kind": "variable",
+            "details": "Лкм бота"
+        },
+        {
+            "trigger": "bot.keyboard.keyBindUseItem",
+            "contents": "bot.keyboard.keyBindUseItem = true;",
+            "kind": "variable",
+            "details": "Пкм бота"
+        }
+    ]
+}

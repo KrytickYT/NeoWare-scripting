@@ -1,0 +1,28 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "bot.controller",
+            "contents": "bot.controller",
+            "kind": "variable",
+        },
+        {
+            "trigger": "bot.controller.windowClick(2, 1, ScriptAPI.windowClick(\"PICKUP\"));",
+            "contents": "bot.controller.windowClick(2, 1, ScriptAPI.windowClick(\"PICKUP\"));",
+            "kind": "function",
+            "details": "Клик на слот в инвентаре бота. 2 - номер слота"
+        },
+        {
+            "trigger": "bot.controller.getGameType().getName()",
+            "contents": "bot.controller.getGameType().getName()",
+            "kind": "variable",
+            "details": "Режим игры бота: <code>survival</code> <code>creative</code>"
+        },
+        {
+            "trigger": "bot.controller.attackEntity(entity);",
+            "contents": "bot.controller.attackEntity(entity);",
+            "kind": "variable",
+            "details": "Бот ударит сущность в мире"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "ScriptAPI",
+            "contents": "ScriptAPI",
+            "kind": "variable",
+        },
+        {
+            "trigger": "ScriptAPI.sendMessage(\"123123\");",
+            "contents": "ScriptAPI.sendMessage(\"123123\");",
+            "kind": "function",
+            "details": "<code>@deprecated</code> Отправить сообщение в чат игры"
+        },
+        {
+            "trigger": "ScriptAPI.parsePlaceholders(\"%string\");",
+            "contents": "ScriptAPI.parsePlaceholders(\"%string\");",
+            "kind": "variable",
+            "details": "<code>@deprecated</code> Получить значение плейсхолдера"
+        },
+        {
+            "trigger": "ScriptAPI.stripColor(\"§сTest\");",
+            "contents": "ScriptAPI.stripColor(\"§сTest\");",
+            "kind": "variable",
+            "details": "Очистить сообщение от цвета"
+        },
+        {
+            "trigger": "ScriptAPI.translateItemKey(\"tile.stone\");",
+            "contents": "ScriptAPI.translateItemKey(\"tile.stone\");",
+            "kind": "variable",
+            "details": "Получить локализованное название блока"
+        },
+        {
+            "trigger": "ScriptAPI.getBlockPos(0, 0, 0);",
+            "contents": "ScriptAPI.getBlockPos(0, 0, 0);",
+            "kind": "variable",
+            "details": "Получить значение BlockPos по координатам"
+        },
+        {
+            "trigger": "ScriptAPI.getDistance(0, 0, 0, 1, 1, 1);",
+            "contents": "ScriptAPI.getDistance(0, 0, 0, 1, 1, 1);",
+            "kind": "variable",
+            "details": "<code>@deprecated</code> Получить дистанцию до координаты"
+        },
+        {
+            "trigger": "ScriptAPI.normalizePitch(999);",
+            "contents": "ScriptAPI.normalizePitch(999);",
+            "kind": "variable",
+            "details": "<code>@deprecated</code> Нормализация горизонтального поворота головы"
+        },
+        {
+            "trigger": "ScriptAPI.normalizeYaw(999);",
+            "contents": "ScriptAPI.normalizeYaw(999);",
+            "kind": "variable",
+            "details": "<code>@deprecated</code> Нормализация вертикального наклона головы"
+        },
+        {
+            "trigger": "ScriptAPI.getBots();",
+            "contents": "ScriptAPI.getBots();",
+            "kind": "variable",
+            "details": "Получить список ботов в виде массива"
+        },
+        {
+            "trigger": "ScriptAPI.getClickType(\"PICKUP\");",
+            "contents": "ScriptAPI.getClickType(\"PICKUP\");",
+            "kind": "variable",
+            "details": "Получить тип клика <code>PICKUP</code>, <code>QUICK_MOVE</code>, <code>SWAP</code>, <code>THROW</code>"
+        },
+        {
+            "trigger": "ScriptAPI.getClickType(\"NORTH\");",
+            "contents": "ScriptAPI.getClickType(\"NORTH\");",
+            "kind": "variable",
+            "details": "Получить направление <code>NORTH</code>, <code>SOUTH</code>, <code>WEST</code>, <code>EAST</code>"
+        }
+    ]
+}

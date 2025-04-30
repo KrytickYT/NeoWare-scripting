@@ -1,0 +1,95 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "entity.posX",
+            "contents": "entity.posX",
+            "kind": "variable",
+            "details": "Позиция <code>X</code> сущности в мире"
+        },
+        {
+            "trigger": "entity.posY",
+            "contents": "entity.posY",
+            "kind": "variable",
+            "details": "Позиция <code>Y</code> сущности в мире"
+        },
+        {
+            "trigger": "entity.posZ",
+            "contents": "entity.posZ",
+            "kind": "variable",
+            "details": "Позиция <code>Z</code> сущности в мире"
+        },
+        {
+            "trigger": "entity.motionX",
+            "contents": "entity.motionX",
+            "kind": "variable",
+            "details": "Модуль скорости по <code>X</code>"
+        },
+        {
+            "trigger": "entity.motionY",
+            "contents": "entity.motionY",
+            "kind": "variable",
+            "details": "Модуль скорости по <code>Y</code>"
+        },
+        {
+            "trigger": "entity.motionZ",
+            "contents": "entity.motionZ",
+            "kind": "variable",
+            "details": "Модуль скорости по <code>Z</code>"
+        },
+        {
+            "trigger": "entity.rotationYaw",
+            "contents": "entity.rotationYaw",
+            "kind": "variable",
+            "details": "Поворот головы сущности по <code>горизонтали</code>"
+        },
+        {
+            "trigger": "entity.rotationPitch",
+            "contents": "entity.rotationPitch",
+            "kind": "variable",
+            "details": "Поворот головы сущности по <code>вертикали</code>"
+        },
+        {
+            "trigger": "entity.getHealth()",
+            "contents": "entity.getHealth()",
+            "kind": "variable",
+            "details": "Получение здоровья сущности"
+        },
+        {
+            "trigger": "entity.onGround",
+            "contents": "entity.onGround",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если сущность стоит на блоке"
+        },
+        {
+            "trigger": "entity.isGlowing()",
+            "contents": "entity.isGlowing()",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если сущность светится"
+        },
+        {
+            "trigger": "entity.isInvisible()",
+            "contents": "entity.isInvisible()",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если сущность в невидемости"
+        },
+        {
+            "trigger": "entity.isDead",
+            "contents": "entity.isDead",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если сущность убита"
+        },
+        {
+            "trigger": "entity.isInWater()",
+            "contents": "entity.isInWater()",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если сущность в воде"
+        },
+        {
+            "trigger": "entity.isSneaking()",
+            "contents": "entity.isSneaking()",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если сущность крадется"
+        }
+    ]
+}

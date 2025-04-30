@@ -1,0 +1,155 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "packetChat.getChatComponent()",
+            "contents": "packetChat.getChatComponent()",
+            "kind": "variable",
+            "details": "Вернет <code>TextComponent</code> сообщения"
+        },
+        {
+            "trigger": "packetChat.getChatComponent().getFormattedText()",
+            "contents": "packetChat.getChatComponent().getFormattedText()",
+            "kind": "variable",
+            "details": "Вернет сообщение как строку"
+        },
+        {
+            "trigger": "packetTitle.getChatComponent()",
+            "contents": "packetTitle.getChatComponent()",
+            "kind": "variable",
+            "details": "Вернет <code>TextComponent</code> сообщения"
+        },
+        {
+            "trigger": "packetTitle.getChatComponent().getFormattedText()",
+            "contents": "packetTitle.getChatComponent().getFormattedText()",
+            "kind": "variable",
+            "details": "Вернет сообщение как строку"
+        },
+        {
+            "trigger": "packetTitle.getType().name()",
+            "contents": "packetTitle.getType().name()",
+            "kind": "variable",
+            "details": "Тип сообщения: <code>TITLE</code> <code>SUBTITLE</code> <code>ACTIONBAR</code>"
+        },
+        {
+            "trigger": "packetTitle.getChatComponent()",
+            "contents": "packetTitle.getChatComponent()",
+            "kind": "variable",
+            "details": "Вернет <code>TextComponent</code> сообщения"
+        },
+        {
+            "trigger": "packetTitle.getName().getFormattedText()",
+            "contents": "packetTitle.getName().getFormattedText()",
+            "kind": "variable",
+            "details": "Вернет сообщение как строку"
+        },
+        {
+            "trigger": "packetBossInfo.getOperation().name()",
+            "contents": "packetBossInfo.getOperation().name()",
+            "kind": "variable",
+            "details": "Тип сообщения: <code>ADD</code> <code>REMOVE</code> <code>UPDATE_NAME</code>"
+        },
+        {
+            "trigger": "packetSound.getX()",
+            "contents": "packetSound.getX()",
+            "kind": "variable",
+            "details": "Позиция <code>X</code> звука в мире"
+        },
+        {
+            "trigger": "packetSound.getY()",
+            "contents": "packetSound.getY()",
+            "kind": "variable",
+            "details": "Позиция <code>Y</code> звука в мире"
+        },
+        {
+            "trigger": "packetSound.getZ()",
+            "contents": "packetSound.getZ()",
+            "kind": "variable",
+            "details": "Позиция <code>Z</code> звука в мире"
+        },
+        {
+            "trigger": "packetSound.getSound().getSoundName()",
+            "contents": "packetSound.getSound().getSoundName()",
+            "kind": "variable",
+            "details": "Вернет название звука Пример <code>block.chest.open</code>"
+        },
+        {
+            "trigger": "packetDisconnect.getReason().getFormattedText()",
+            "contents": "packetDisconnect.getReason().getFormattedText()",
+            "kind": "variable",
+            "details": "Вернет сообщение кика как строку"
+        },
+        {
+            "trigger": "packetJoinGame.getMaxPlayers()",
+            "contents": "packetJoinGame.getMaxPlayers()",
+            "kind": "variable",
+            "details": "Вернет максимальное кол-во игроков в мире"
+        },
+        {
+            "trigger": "packetJoinGame.getGameType().getName()",
+            "contents": "packetJoinGame.getGameType().getName()",
+            "kind": "variable",
+            "details": "Вернет режим игры в мире Пример <code>creative</code> <code>survival</code>"
+        },
+        {
+            "trigger": "packetJoinGame.getDifficulty().getTranslationKey()",
+            "contents": "packetJoinGame.getDifficulty().getTranslationKey()",
+            "kind": "variable",
+            "details": "Вернет сложность в мире Пример <code>options.difficulty.normal</code>"
+        },
+        {
+            "trigger": "packetPlayerList.getHeader().getFormattedText()",
+            "contents": "packetPlayerList.getHeader().getFormattedText()",
+            "kind": "variable",
+            "details": "Вернет верхнюю часть таба как строку"
+        },
+        {
+            "trigger": "packetPlayerList.getFooter().getFormattedText()",
+            "contents": "packetPlayerList.getFooter().getFormattedText()",
+            "kind": "variable",
+            "details": "Вернет нижнюю часть таба как строку"
+        },
+        {
+            "trigger": "packetParticles.getParticleType().getParticleName()",
+            "contents": "packetParticles.getParticleType().getParticleName()",
+            "kind": "variable",
+            "details": "Вернет название партикла Пример <code>splash</code>"
+        },
+        {
+            "trigger": "packetParticles.getXCoordinate()",
+            "contents": "packetParticles.getXCoordinate()",
+            "kind": "variable",
+            "details": "Позиция <code>X</code> партикла в мире"
+        },
+        {
+            "trigger": "packetParticles.getYCoordinate()",
+            "contents": "packetParticles.getYCoordinate()",
+            "kind": "variable",
+            "details": "Позиция <code>Y</code> партикла в мире"
+        },
+        {
+            "trigger": "packetParticles.getZCoordinate()",
+            "contents": "packetParticles.getZCoordinate()",
+            "kind": "variable",
+            "details": "Позиция <code>Z</code> партикла в мире"
+        },
+        {
+            "trigger": "botCaptcha.getCaptcha()",
+            "contents": "botCaptcha.getCaptcha()",
+            "kind": "variable",
+            "details": "Получить картинку капчи как <code>BufferedImage</code>"
+        },
+        {
+            "trigger": "botCaptcha.getHash()",
+            "contents": "botCaptcha.getHash()",
+            "kind": "variable",
+            "details": "Получить md5 хеш картинки"
+        },
+        {
+            "trigger": "botCaptcha.sendAnswer(\"123123\")",
+            "contents": "botCaptcha.sendAnswer(\"123123\")",
+            "kind": "function",
+            "details": "Отправить ответ на капчу"
+        }
+    ]
+}

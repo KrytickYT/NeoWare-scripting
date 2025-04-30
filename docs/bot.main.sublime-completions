@@ -1,0 +1,41 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "bot.getNickname()",
+            "contents": "bot.getNickname()",
+            "kind": "function",
+            "details": "Получение ника бота"
+        },
+        {
+            "trigger": "bot.isOnline()",
+            "contents": "bot.isOnline()",
+            "kind": "variable",
+            "details": "Вернет <code>true</code> если бот онлайн"
+        },
+        {
+            "trigger": "bot.useItem();",
+            "contents": "bot.useItem();",
+            "kind": "function",
+            "details": "Нажмет пкм по предмету в руке"
+        },
+        {
+            "trigger": "bot.changeSlot(0);",
+            "contents": "bot.changeSlot(0);",
+            "kind": "function",
+            "details": "Бот сменит слот в хотбаре на указанный"
+        },
+        {
+            "trigger": "bot.setParameter(\"key\", \"value\");",
+            "contents": "bot.setParameter(\"key\", \"value\");",
+            "kind": "function",
+            "details": "Бот сменит слот в хотбаре на указанный"
+        },
+        {
+            "trigger": "bot.getParameter(\"key\")",
+            "contents": "bot.getParameter(\"key\")",
+            "kind": "variable",
+            "details": "Бот сменит слот в хотбаре на указанный"
+        }
+    ]
+}

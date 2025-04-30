@@ -1,0 +1,27 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "bot.mc",
+            "contents": "bot.mc",
+            "kind": "variable",
+        },
+        {
+            "trigger": "bot.mc.leftClickMouse();",
+            "contents": "bot.mc.leftClickMouse();",
+            "kind": "function",
+            "details": "Лкм бота"
+        },
+        {
+            "trigger": "bot.mc.rightClickMouse();",
+            "contents": "bot.mc.rightClickMouse();",
+            "kind": "function",
+            "details": "Пкм бота"
+        },
+        {
+            "trigger": "bot.player",
+            "contents": "bot.player",
+            "kind": "variable",
+        }
+    ]
+}
