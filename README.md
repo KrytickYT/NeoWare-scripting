@@ -50,4 +50,4 @@ function SPacketResourcePackSend(bot, packetResourcePack) {}
 - RandomUtil
 
 
-``Последнее редактирование: 30.04.2025
+Последнее редактирование: 30.04.2025
