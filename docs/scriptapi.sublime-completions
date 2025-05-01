@@ -71,6 +71,29 @@
             "contents": "ScriptAPI.getClickType(\"NORTH\");",
             "kind": "variable",
             "details": "Получить направление <code>NORTH</code>, <code>SOUTH</code>, <code>WEST</code>, <code>EAST</code>"
+        },
+        {
+            "trigger": "PlaceholderAPI",
+            "contents": "PlaceholderAPI",
+            "kind": "variable",
+        },
+        {
+            "trigger": "PlaceholderAPI.register(\"name\", \"function\");",
+            "contents": "PlaceholderAPI.register(\"name\", \"function\");",
+            "kind": "function",
+            "details": "Регистрация плейсхолдера"
+        },
+        {
+            "trigger": "PlaceholderAPI.unregister(\"name\");",
+            "contents": "PlaceholderAPI.unregister(\"name\");",
+            "kind": "function",
+            "details": "Удаление плейсхолдера"
+        },
+        {
+            "trigger": "PlaceholderAPI.format(\"name\")",
+            "contents": "PlaceholderAPI.format(\"name\")",
+            "kind": "variable",
+            "details": "Получить значение плейсхолдера"
         }
     ]
 }
